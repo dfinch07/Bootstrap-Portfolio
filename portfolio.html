@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Insert your comments here -->
+
+<head>
+<!--Default coloring, styling, and widgets-->
+<meta charset="UTF-8">
+
+<!--This makes sure our content is consistent across devices in terms of zoom & readibility-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Bootstrap and Javascript links-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 
+<style>
+.navbar{
+    width:500px;
+    color: #dddddd;
+    text-align:center;
+}
+
+.main{
+    display: inline-block;
+    width:500px;
+    background-color: #ffffff;
+    margin: 40px 0;
+    border:1px solid #dddddd;
+    padding: 40px;
+}
+
+.main h1 {
+    color:#4aaaa5;
+    text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+	margin-bottom: 0.8em;
+	border-bottom: 2px solid #dddddd;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 500px;
+	padding: 3em;
+	text-align: center;
+	font-size: 0.8em;
+	color: #cccccc;
+	background-color: #666666;
+	border-top: 7px solid #4aaaa5;
+}
+
+html, body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #efefef;
+	background: #efefef url("../images/shattered.png");
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: inline-block;
+    text-align:center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 1em;
+	width: 500px;
+}
+
+.name {
+	width: 75%;
+}
+
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 200px;
+	transition: transform .2s ease-out;
+}
+
+.portfolio-item:nth-child(even) {
+	margin-left: 25px;
+}
+
+.portfolio-item:hover {
+	transform: rotate(-4deg) scale(1.1, 1.1);
+}
+
+.item-name {
+    width: 300px;
+	position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+	color: #ffffff;
+	z-index: 1000;
+}
+</style>
+
+<title>Derrick Finch Jr. / Portfolio </title>
+
+<body>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                    <div class="name">
+                  <div class="logo">Derrick Allen Finch Jr.</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <a class="nav-item nav-link" href="index.html">About</a>
+                                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </nav>
+            </div>
+        </div>
+                        
+    </div>
+            
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                        <div class="content">
+                                <!-- Main content -->
+                                <div class="main">
+                                    <h1 class="page-title">Portfolio</h1>
+                                    <ul class="portfolio">
+                                        <li class="portfolio-item">
+                                            <a href="#">
+                                                <img src="http://mybestapk.com/wp-content/uploads/2018/01/a-310.png" alt="Word Guess Image">
+                                                <h2 class="item-name">Word Guess</h2>
+                                            </a>
+                                        </li>
+                                        <li class="portfolio-item">
+                                            <a href="#">
+                                                <img src="http://dragonball-super.org/wp-content/uploads/2016/02/dragon-ball-super-300x300.jpg" alt="RPG Game Image">
+                                                <h2 class="item-name">RPG Game</h2>
+                                            </a>
+                                        </li>
+                                        <li class="portfolio-item">
+                                            <a href="#">
+                                                <img src="https://apk.co/images/family-feud-matches-158.png" alt="Trivia Game Image">
+                                                <h2 class="item-name">Trivia Game</h2>
+                                            </a>
+                                    </ul>
+                                    
+                                </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-12">
+                <!-- Footer -->
+                        <footer class="page-footer">
+        
+                    <!-- Copyright -->
+                        <div class="footer-copyright text-center py-3">© 2018 Copyright:Derrick Finch Jr.
+                        </div>
+                    <!-- Copyright -->
+              
+                     </footer>
+                    <!-- Footer -->
+                </div>
+            </div>
+        </div>                          
+    </div>
+
+</body>
